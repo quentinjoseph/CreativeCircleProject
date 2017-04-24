@@ -33,65 +33,75 @@ var circle=function(){
   if (widthCircle>379){
   circle1.style.display="block";
   document.getElementById('recDisp').style.display="none";
-  tt.style.display="none";
+  // tt.style.display="none";
   circle1.style.marginLeft="169px";
   circle1.style.marginTop="220px";
-  document.body.style.backgroundImage = "none";
-  document.body.style.backgroundColor = "black";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
-  document.getElementById('tunesId').style.display='none';
-  document.getElementById('nowPid').style.display='none';
+  // document.body.style.backgroundImage = "none";
+  // document.body.style.backgroundColor = "black";
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
+  // document.getElementById('tunesId').style.display='none';
+  // document.getElementById('nowPid').style.display='none';
   }
   else if ((widthCircle>314)&&(widthCircle<379)){
+  document.getElementById('recDisp').style.display="block";
   circle1.style.display="block";
   circle1.style.marginLeft="169px";
   circle1.style.marginTop="203px";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
 }else if((widthCircle>254) && (widthCircle<314)){
+  document.getElementById('recDisp').style.display="block";
   circle1.style.display="block";
   circle1.style.marginLeft="200px";
   circle1.style.marginTop="230px";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
 }else if((widthCircle>201)&&(widthCircle<254)){
+  document.getElementById('recDisp').style.display="block";
   circle1.style.display="block";
   circle1.style.marginLeft="226px";
   circle1.style.marginTop="257px";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
 }else if((widthCircle>153.9)&&(widthCircle<201)){
+  document.getElementById('recDisp').style.display="block";
   circle1.style.display="block";
   circle1.style.marginLeft="249px";
   circle1.style.marginTop="282px";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
 }else if((widthCircle>113)&&(widthCircle<153.9)){
+  document.getElementById('recDisp').style.display="block";
   circle1.style.display="block";
   circle1.style.marginLeft="269px";
   circle1.style.marginTop="303px";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
 }else if((widthCircle>78)&&(widthCircle<113)){
+  document.getElementById('recDisp').style.display="block";
   circle1.style.display="block";
   circle1.style.marginLeft="285.5px";
   circle1.style.marginTop="318.5px";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
 }else if((widthCircle>50)&&(widthCircle<78)){
+  document.getElementById('recDisp').style.display="block";
   circle1.style.display="block";
   circle1.style.marginLeft="298.5px";
   circle1.style.marginTop="332px";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
 }else if((widthCircle>28)&&(widthCircle<50)){
+  document.getElementById('recDisp').style.display="block";
   circle1.style.display="block";
   circle1.style.marginLeft="310.5px";
   circle1.style.marginTop="342px";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
 }else if((widthCircle>12)&&(widthCircle<28)){
+  document.getElementById('recDisp').style.display="block";
   circle1.style.display="block";
   circle1.style.marginLeft="318.5px";
   circle1.style.marginTop="351.5";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
 }else if((widthCircle>3)&&(widthCircle<12)){
+  document.getElementById('recDisp').style.display="block";
   circle1.style.display="block";
   circle1.style.marginLeft="321px";
   circle1.style.marginTop="355.5";
-  cdisp.innerText="radius = approx. " + (Math.round(Area));
+  cdisp.innerText="The Area is approx." + (Math.round(Area));
 }
 }
 // var widthCircle=Area;
@@ -123,7 +133,7 @@ var showRecords=function(){
   hideRecord();
 
 // what happens after input
-  if (Math.round(Area)>=314){
+  if ((Math.round(Area)>=314)&&(Math.round(Area)<380)){
 document.getElementById('record').style.display = 'block';
 document.getElementById('record').style.animationName = "spin";
 document.body.style.backgroundImage = "url('images/mj1.jpg')";
