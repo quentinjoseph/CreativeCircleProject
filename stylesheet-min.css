@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+body {
+  background-color: black; }
+
+#bDiv {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: .01; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: .01; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg); } }
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg); } }
+
+/*.reCont{animation-name: smooth;
+animation-duration: 5s;}*/
+#record {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  width: 600px;
+  position: fixed;
+  /*padding-bottom: 200px;*/
+  margin-left: 26.25px;
+  margin-top: 10px;
+  display: none; }
+
+#record9 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  width: 500px;
+  position: fixed;
+  /*padding-bottom: 200px;*/
+  margin-left: 76px;
+  margin-top: 56px;
+  display: none; }
+
+#record8 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  width: 450px;
+  position: fixed;
+  /*padding-bottom: 200px;*/
+  margin-left: 101px;
+  margin-top: 80px;
+  display: none; }
+
+#record07 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  width: 400px;
+  position: fixed;
+  /*padding-bottom: 200px;*/
+  margin-left: 126px;
+  margin-top: 106px;
+  display: none; }
+
+#record6 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  width: 350px;
+  position: fixed;
+  /*padding-bottom: 200px;*/
+  margin-left: 151px;
+  margin-top: 130px;
+  display: none; }
+
+#record5 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  width: 300px;
+  position: fixed;
+  /*padding-bottom: 200px;*/
+  margin-left: 175px;
+  margin-top: 153px;
+  display: none; }
+
+#record4 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  width: 250px;
+  position: fixed;
+  /*padding-bottom: 200px;*/
+  margin-left: 199px;
+  margin-top: 176px;
+  display: none; }
+
+#record3 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  width: 200px;
+  position: fixed;
+  /*padding-bottom: 200px;*/
+  margin-left: 225px;
+  margin-top: 200px;
+  display: none; }
+
+#record2 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  width: 150px;
+  position: fixed;
+  /*padding-bottom: 200px;*/
+  margin-left: 250px;
+  margin-top: 225px;
+  display: none; }
+
+#record1 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  width: 100px;
+  position: fixed;
+  /*padding-bottom: 200px;*/
+  margin-left: 275px;
+  margin-top: 250px;
+  display: none; }
+
+#turntable {
+  position: fixed;
+  opacity: .5;
+  padding-bottom: 50px;
+  /*display: none;}*/
+  /*#turntable:hover{opacity: 1;}*/ }
+
+.tunes {
+  position: absolute;
+  margin-left: 810px; }
+
+.player {
+  width: 170px;
+  display: none;
+  padding: 15px 0 0 0;
+  opacity: .1; }
+
+.player:hover {
+  opacity: 1;
+  width: 180px;
+  /*border-bottom: solid 5px green;}*/ }
+
+#pColor {
+  color: white; }
+
+.recPic {
+  opacity: .8; }
+
+#circle1 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  margin-left: 318.5px;
+  margin-top: 351.5px;
+  position: fixed;
+  color: white;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  opacity: .6;
+  z-index: 1;
+  display: none; }
+
+#areaDisp {
+  text-align: center; }
+
+.nowPlaying {
+  margin-top: 475px;
+  margin-left: 810px;
+  position: fixed;
+  background-color: white;
+  opacity: .1;
+  height: 100px;
+  width: 175px;
+  font-size: 11px;
+  border-radius: 20px; }
+
+.show {
+  display: none;
+  position: absolute; }

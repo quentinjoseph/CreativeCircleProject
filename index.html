@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  </head>
+  <body id="bgAdd">
+    <!--circle  -->
+    <div id="circle1">
+      <p id="areaDisp"></p>
+    </div>
+
+<div id = "bDiv">
+<p id="pColor">Choose how many songs you want on your record. You can only have up to 10!</p>
+<input id="radius" type="text" name="radius" >
+<button type="button" name="button" onclick="getArea(radius)">Go</button>
+</div>
+
+  <img id = "turntable" src="images/turntable.png" alt="">
+
+<div class="reCont" id="recDisp">
+  <img class= "recPic" id = "record" src="images/record.png" alt="">
+  <img class= "recPic" id = "record9" src="images/record.png" alt="">
+  <img class= "recPic" id = "record8" src="images/record.png" alt="">
+  <img class= "recPic" id = "record07" src="images/record.png" alt="">
+  <img class= "recPic" id = "record6" src="images/record.png" alt="">
+  <img class= "recPic" id = "record5" src="images/record.png" alt="">
+  <img class= "recPic" id = "record4" src="images/record.png" alt="">
+  <img class= "recPic" id = "record3" src="images/record.png" alt="">
+  <img class= "recPic" id = "record2" src="images/record.png" alt="">
+  <img class= "recPic" id = "record1" src="images/record.png" alt="">
+
+</div>
+<div class="tunes" id="tunesId">
+  <audio id="a10" class="player" controls onPlay="nowPlay10()" onpause="nowPause10()">
+  <source src="music/dontStop.mp3" type="audio/mpeg">MJ</audio>
+
+  <audio id="a9" class="player p9 " controls onPlay="nowPlay9()" onpause="nowPause9()">
+  <source src="music/funkyDrummer1.mp3" type="audio/mpeg"></audio>
+
+  <audio id="a8" class="player p9 p8 " controls onPlay="nowPlay8()" onpause="nowPause8()">
+  <source src="music/controversy.mp3" type="audio/mpeg"></audio>
+
+  <audio id="a7" class="player p9 p8 p7 " controls onPlay="nowPlay7()" onpause="nowPause7()">
+  <source src="music/theOcean.mp3" type="audio/mpeg"></audio>
+
+  <audio id="a6" class="player p9 p8 p7 p6 " controls onPlay="nowPlay6()" onpause="nowPause6()">
+  <source src="music/EWF.mp3" type="audio/mpeg"></audio>
+
+  <audio id="a5" class="player p9 p8 p7 p6 p5" controls onPlay="nowPlay5()" onpause="nowPause5()">
+  <source src="music/katg.mp3" type="audio/mpeg"></audio>
+
+  <audio id="a4" class="player p9 p8 p7 p6 p5 p4" controls onPlay="nowPlay4()" onpause="nowPause4()">
+  <source src="music/inTime.mp3" type="audio/mpeg"></audio>
+
+  <audio id="a3" class="player p9 p8 p7 p6 p5 p4 p3" controls onPlay="nowPlay3()" onpause="nowPause3()">
+  <source src="music/ojays.mp3" type="audio/mpeg"></audio>
+
+  <audio id="a2" class="player p9 p8 p7 p6 p5 p4 p3 p2" controls onPlay="nowPlay2()" onpause="nowPause2()">
+  <source src="music/beatgoeson.mp3" type="audio/mpeg"></audio>
+
+  <audio id="a1" class="player p9 p8 p7 p6 p5 p4 p3 p2 p1" controls onPlay="nowPlay1()" onpause="nowPause1()">
+  <source src="music/rs.mp3" type="audio/mpeg"></audio>
+
+</div>
+<div class="nowPlaying" id="nowPid">
+  <p class="show">Now Playing:</p>
+  <p class="show" id="np10">Michael Jackson - Don't Stop Till You Get Enough</p>
+  <p class="show" id="np9">James Brown - The Funky Drummer</p>
+  <p class="show" id="np8">Prince - Controversy</p>
+  <p class="show" id="np7">Led Zeppelin - The Ocean</p>
+  <p class="show" id="np6">Earth Wind and Fire - Fantasy</p>
+  <p class="show" id="np5">Kool and the Gang - Hollywood Swinging</p>
+  <p class="show" id="np4">Sly and The Family Stone - In Time</p>
+  <p class="show" id="np3">The Ojays - Back Stabbers</p>
+  <p class="show" id="np2">The Whispers - The Beat Goes On</p>
+  <p class="show" id="np1">Aretha Franklin - Rock Steady</p>
+</div>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+  </body>
+</html>
